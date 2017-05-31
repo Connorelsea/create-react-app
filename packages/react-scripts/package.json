@@ -1,6 +1,6 @@
 {
   "name": "connor-react-scripts",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "Configuration and scripts for Create React App.",
   "repository": "https://github.com/Connorelsea/create-react-app",
   "license": "BSD-3-Clause",
@@ -59,6 +59,7 @@
     "webpack-bundle-analyzer": "^2.8.2",
     "webpack-dev-server": "2.4.5",
     "webpack-manifest-plugin": "1.1.0",
+    "webpack-visualizer-plugin": "^0.1.11",
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {

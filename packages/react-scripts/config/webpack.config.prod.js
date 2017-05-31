@@ -24,18 +24,19 @@ const paths = require('./paths');
 const getClientEnvironment = require('./env');
 
 console.log(`
- _____           _____             _     
-|   | |___ _ _ _|  _  |___ ___ ___|_|___ 
-| | | | -_| | | |     | . | -_|  _| | . |
-|_|___|___|_____|__|__|  _|___|_| |_|___|
-                      |_|                
-
-    Building Project for Production...
+     _____           _____             _     
+    |   | |___ _ _ _|  _  |___ ___ ___|_|___ 
+    | | | | -_| | | |     | . | -_|  _| | . |
+    |_|___|___|_____|__|__|  _|___|_| |_|___|
+                          |_|                
+    
+      Preparing to bundle for production...
 `)
 
 // Additions
 
 var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+var Visualizer = require('webpack-visualizer-plugin');
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
@@ -359,6 +360,9 @@ module.exports = {
     // New Plugins:
 
     new BundleAnalyzerPlugin(),
+    new Visualizer({
+      filename: "bundle_stats_percent.html"
+    })
   ],
   // Some libraries import Node modules but don't use them in the browser.
   // Tell Webpack to provide empty mocks for them so importing them works.
