@@ -23,7 +23,15 @@ const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 
-console.log("CONNOR ELSEA VERSION TESTING")
+console.log(`
+ _____           _____             _     
+|   | |___ _ _ _|  _  |___ ___ ___|_|___ 
+| | | | -_| | | |     | . | -_|  _| | . |
+|_|___|___|_____|__|__|  _|___|_| |_|___|
+                      |_|                
+
+    Building Project for Production...
+`)
 
 // Additions
 
@@ -112,6 +120,10 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
+
+      // Added for bundle space saving
+      "react": "preact-compat",
+      "react-dom": "preact-compat"
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).

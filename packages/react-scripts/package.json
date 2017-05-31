@@ -47,6 +47,8 @@
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.0.0",
     "postcss-loader": "2.0.5",
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0",
     "promise": "7.1.1",
     "react-dev-utils": "^3.0.0",
     "react-error-overlay": "^1.0.7",
@@ -54,10 +56,10 @@
     "sw-precache-webpack-plugin": "0.9.1",
     "url-loader": "0.5.8",
     "webpack": "2.6.1",
+    "webpack-bundle-analyzer": "^2.8.2",
     "webpack-dev-server": "2.4.5",
     "webpack-manifest-plugin": "1.1.0",
-    "whatwg-fetch": "2.0.3",
-    "webpack-bundle-analyzer": "^2.8.2"
+    "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
     "react": "^15.5.4",
