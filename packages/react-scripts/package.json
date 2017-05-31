@@ -1,8 +1,8 @@
 {
   "name": "connor-react-scripts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "facebookincubator/create-react-app",
+  "repository": "https://github.com/Connorelsea/create-react-app",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=6"
@@ -56,12 +56,12 @@
     "webpack": "2.6.1",
     "webpack-dev-server": "2.4.5",
     "webpack-manifest-plugin": "1.1.0",
-    "whatwg-fetch": "2.0.3"
+    "whatwg-fetch": "2.0.3",
+    "webpack-bundle-analyzer": "^2.8.2"
   },
   "devDependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "webpack-bundle-analyzer": "^2.8.2"
   },
   "optionalDependencies": {
     "fsevents": "1.0.17"
