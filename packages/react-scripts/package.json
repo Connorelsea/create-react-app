@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "optionalDependencies": {
     "fsevents": "1.0.17"
