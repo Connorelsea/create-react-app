@@ -360,7 +360,9 @@ module.exports = {
 
     // New Plugins:
 
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+    }),
     new Visualizer({
       filename: "bundle_stats_percent.html"
     })
