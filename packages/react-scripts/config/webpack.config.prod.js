@@ -124,7 +124,8 @@ module.exports = {
 
       // Added for bundle space saving
       "react": "preact-compat",
-      "react-dom": "preact-compat"
+      "react-dom": "preact-compat",
+      'create-react-class': 'preact-compat/lib/create-react-class'
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).
